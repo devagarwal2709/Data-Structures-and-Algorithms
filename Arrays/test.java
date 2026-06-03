@@ -2,7 +2,7 @@ class Test {
 
     public static void main(String[] args) {
 
-        System.out.println("Hey... New DSA Repository 🚀");
+        System.out.println("Hey... New DSA Repo");
 
     }
 }
