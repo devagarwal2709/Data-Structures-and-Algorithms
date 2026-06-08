@@ -1,3 +1,13 @@
+/*
+Pattern: Merge-style Traversal (Two Pointers)
+Time: O(n + m)
+Space: O(n + m)
+
+Idea:
+Traverse both sorted arrays together.
+Add only unique elements.
+*/
+
 class Solution {
     public static ArrayList<Integer> findUnion(int a[], int b[]) {
         ArrayList<Integer> ans = new ArrayList<>();

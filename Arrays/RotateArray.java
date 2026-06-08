@@ -1,15 +1,12 @@
 /*
-LeetCode 189 - Rotate Array
-
 Pattern: Array Reversal
+Time: O(n)
+Space: O(1)
 
-Approach:
-1. Reverse entire array
-2. Reverse first k elements
-3. Reverse remaining elements
-
-Time Complexity: O(n)
-Space Complexity: O(1)
+Idea:
+Reverse whole array,
+reverse first k elements,
+reverse remaining elements.
 */
 
 class Solution {
