@@ -27,27 +27,6 @@ Continue until both lists are exhausted, then append any remaining carry.
  * }
  */
 class Solution {
-    public ListNode reverse(ListNode head){
-        ListNode prev=null;
-        ListNode current=head;
-        ListNode after=null;
-        while(current!=null){
-            after=current.next;
-            current.next=prev;
-            prev=current;
-            current=after;
-        }
-        return prev;
-    }
-    public int length(ListNode head){
-        int length=0;
-        ListNode temp=head;
-        while(temp!=null){
-            temp=temp.next;
-            length++;
-        }
-        return length;
-    }
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode temp1=l1;
         ListNode temp2=l2;
